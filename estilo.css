@@ -10,6 +10,37 @@ header {
 
 section#lado1 {
     position: absolute;
+    margin: 0px 0px 0px 20px;
+}
+
+section#lado1 img#foto {
+    border-radius: 10px;
+}
+
+section#lado1 div#redes-sociais {
+    font: normal 11pt Arial;
+    text-align: center;
+    position: sticky;
+    background: white;
+    width: 230px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -15px 0px 0px 8px;
+}
+
+section#lado1 div#redes-sociais a {
+    text-decoration: none;
+    color: black;
+}
+
+section#lado1 div#redes-sociais a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#lado1 h1#nome {
+    font: bold 18pt Arial;
+    text-align: center;
 }
 
 section#lado2 {
@@ -18,13 +49,14 @@ section#lado2 {
     width: 600px;
     border-radius: 10px;
     margin: -20px 10px 10px 460px;
-    font: normal 12pt Arial;
+    font: normal 15pt Arial;
     padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 footer {
     position: sticky;
     text-align: center;
     font: normal 14px Arial;
-    margin: 530px 10px 10px 10px;
+    margin: 650px 10px 10px 10px;
 }
