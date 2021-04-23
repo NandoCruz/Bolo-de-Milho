@@ -1,0 +1,30 @@
+body {
+    background: rgba(238, 175, 0, 0.4);
+}
+
+header {
+    font: bold 20pt Arial;
+    text-align: center;
+    margin: -20px 0px 0px 0px;
+}
+
+section#lado1 {
+    position: absolute;
+}
+
+section#lado2 {
+    position: absolute;
+    background: white;
+    width: 600px;
+    border-radius: 10px;
+    margin: -20px 10px 10px 460px;
+    font: normal 12pt Arial;
+    padding: 20px;
+}
+
+footer {
+    position: sticky;
+    text-align: center;
+    font: normal 14px Arial;
+    margin: 530px 10px 10px 10px;
+}
