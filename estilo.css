@@ -4,8 +4,7 @@ body {
 
 header {
     font: bold 20pt Arial;
-    text-align: center;
-    margin: -20px 0px 0px 0px;
+    margin: -20px 0px 0px 530px;
 }
 
 section#lado1 {
@@ -15,6 +14,7 @@ section#lado1 {
 
 section#lado1 img#foto {
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 section#lado1 div#redes-sociais {
@@ -26,6 +26,7 @@ section#lado1 div#redes-sociais {
     border-radius: 5px;
     padding: 5px;
     margin: -15px 0px 0px 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 section#lado1 div#redes-sociais a {
@@ -46,17 +47,28 @@ section#lado1 h1#nome {
 section#lado2 {
     position: absolute;
     background: white;
-    width: 600px;
+    width: 650px;
     border-radius: 10px;
-    margin: -20px 10px 10px 460px;
+    margin: -10px 10px 10px 350px;
     font: normal 15pt Arial;
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+section#lado2 h2 {
+    font: bold 25pt Arial;
+    color: rgb(255, 150, 0);
+}
+
+section#lado2 div#ingredientes img#foto1 {
+    position: absolute;
+    border-radius: 10px;
+    margin: -80px 10px 0px 300px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
 footer {
     position: sticky;
-    text-align: center;
     font: normal 14px Arial;
-    margin: 650px 10px 10px 10px;
+    margin: 650px 10px 10px 600px;
 }
